@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pashkov-app.github.io/verivo/sitemap.xml

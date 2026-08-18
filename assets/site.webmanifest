@@ -1,0 +1,21 @@
+{
+  "name": "VERIVO",
+  "short_name": "VERIVO",
+  "description": "The Living History of Your Car",
+  "start_url": "../",
+  "display": "standalone",
+  "background_color": "#f3efe5",
+  "theme_color": "#18130f",
+  "icons": [
+    {
+      "src": "favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

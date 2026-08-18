@@ -1,8 +1,9 @@
 ---
-title: "Чому існує Verivo / Why Verivo Exists"
-purpose: "Визначити незмінну причину існування Verivo та значення The Living History of Your Car. / Define the enduring reason for Verivo and the meaning of The Living History of Your Car."
-reading_time: "15 хвилин / 15 minutes"
-status: "Затверджено / Approved"
+title: "Why Verivo Exists"
+title_ua: "Чому існує Verivo"
+purpose: "Define the enduring reason for Verivo and the meaning of The Living History of Your Car."
+reading_time: "15 minutes"
+status: "Approved"
 ---
 
 ## UA
@@ -153,6 +154,14 @@ Verivo існує, щоб це минуле не зникало безслідн
 
 **Verivo — The Living History of Your Car.**
 
+### Відкриті питання
+
+- Пастка щоденника: цінність історії реалізується через роки — у момент передачі авто, а зусилля з її ведення — щоденні. Що мотивує власника вести історію в перший рік, коли продавати не збирається? Відповіді немає, питання відкрите.
+
+### Майбутні покращення
+
+- [TBD]
+
 ### Примітки автора
 
 Цей розділ Canon розвиває лише затверджені основоположні ідеї, надані для `VC-001`. Він навмисно не визначає набір функцій, аудиторію, комерційне позиціонування, roadmap або модель реалізації.
@@ -165,6 +174,7 @@ Verivo існує, щоб це минуле не зникало безслідн
 
 | Дата | Версія | Зміна |
 | --- | --- | --- |
+| 2026-08-18 | 1.1 | Додано відкриті питання (пастка щоденника) та майбутні покращення; очищено frontmatter. |
 | 2026-08-18 | 1.0 | Початкова затверджена версія Canon. |
 
 ## EN
@@ -311,6 +321,14 @@ A claim can ask for trust. A history can create it.
 
 **Verivo is The Living History of Your Car.**
 
+### Open Questions
+
+- The diary trap: a history becomes valuable years later, when the car changes hands, but maintaining it requires effort every day. What motivates an owner to keep that history during the first year when they have no intention of selling? There is no answer yet; the question remains open.
+
+### Future Improvements
+
+- [TBD]
+
 ### Author Notes
 
 This Canon chapter develops only the approved founding ideas supplied for `VC-001`. It intentionally defines no feature set, audience, commercial position, roadmap, or implementation model.
@@ -323,4 +341,5 @@ The three metaphors have distinct roles and should retain their order in future 
 
 | Date | Version | Change |
 | --- | --- | --- |
+| 2026-08-18 | 1.1 | Add Open Questions (diary trap) and Future Improvements; frontmatter cleanup. |
 | 2026-08-18 | 1.0 | Initial approved Canon edition. |

@@ -1,338 +1,202 @@
 <!doctype html>
 <html lang="uk">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#18130f">
-    <meta
-      name="description"
-      content="VERIVO preserves the living history of your car as a continuous, intelligible story."
-    >
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="VERIVO — The Living History of Your Car">
-    <meta
-      property="og:description"
-      content="Every car has a story. VERIVO exists to preserve it."
-    >
-    <meta property="og:url" content="https://pashkov-app.github.io/verivo/">
-    <meta name="twitter:card" content="summary">
-    <link rel="canonical" href="https://pashkov-app.github.io/verivo/">
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-    <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-    <link rel="manifest" href="assets/site.webmanifest">
-    <link rel="stylesheet" href="styles/main.css">
-    <script src="scripts/main.js" defer></script>
-    <title>VERIVO — The Living History of Your Car</title>
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">
-      <span data-language="uk">До основного вмісту</span>
-      <span data-language="en" hidden>Skip to main content</span>
-    </a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4efe8">
+  <title>Verivo — Every car has a story</title>
+  <meta name="description" content="Verivo preserves the living history of your car.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Verivo — Every car has a story">
+  <meta property="og:description" content="Every car has a story. Verivo exists to preserve it.">
+  <meta property="og:url" content="https://pashkov-app.github.io/verivo/">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://pashkov-app.github.io/verivo/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="assets/site.webmanifest">
 
-    <header class="site-header" data-site-header>
-      <a class="wordmark" href="#top" aria-label="VERIVO home">VERIVO</a>
+  <!--
+    Noto Serif Display + Noto Sans both support Cyrillic.
+    If Google Fonts is unavailable, the hero falls back to Georgia,
+    so the serif treatment remains visible instead of silently becoming sans-serif.
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&family=Noto+Serif+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap&subset=cyrillic" rel="stylesheet">
 
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#purpose">
-          <span data-language="uk">Суть</span>
-          <span data-language="en" hidden>Purpose</span>
-        </a>
-        <a href="#metaphors">
-          <span data-language="uk">Метафори</span>
-          <span data-language="en" hidden>Metaphors</span>
-        </a>
-        <a href="#principles">
-          <span data-language="uk">Принципи</span>
-          <span data-language="en" hidden>Principles</span>
-        </a>
-      </nav>
+  <link rel="stylesheet" href="styles/home.css">
+</head>
 
-      <div class="language-switcher" role="group" aria-label="Language">
-        <button type="button" data-language-control="uk" aria-pressed="true">UA</button>
-        <span aria-hidden="true">/</span>
-        <button type="button" data-language-control="en" aria-pressed="false">EN</button>
+<body>
+  <header class="nav">
+    <div class="wrap nav-in">
+      <a class="brand" href="#top">
+        <img src="assets/logo-mark.png" alt="">
+        <span>VERIVO</span>
+      </a>
+      <div class="nav-actions">
+        <a class="manifesto-link" href="manifesto.html" data-t="manifestoNav">Маніфест</a>
+        <div class="lang">
+          <button id="ua" class="active" type="button">UA</button>
+          <button id="en" type="button">EN</button>
+        </div>
+        <a class="nav-cta" href="#early" data-t="navCta">Ранній доступ</a>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main id="main-content">
-      <section class="hero" id="top">
-        <div class="hero-copy shell">
-          <div class="hero-text">
-            <p class="eyebrow">
-              <span data-language="uk">Жива історія вашого автомобіля</span>
-              <span data-language="en" hidden>The Living History of Your Car</span>
-            </p>
-
-            <div data-language="uk">
-              <h1>Кожен автомобіль<br>має історію.</h1>
-              <p class="hero-lede">
-                VERIVO зберігає її як живу, послідовну й зрозумілу цілісність —
-                щоб минуле не зникало, а час залишався видимим.
-              </p>
-              <div class="hero-actions">
-                <a class="button button-primary" href="#purpose">Навіщо існує VERIVO</a>
-                <a class="text-link" href="#metaphors">Три метафори</a>
-              </div>
-            </div>
-
-            <div data-language="en" hidden>
-              <h1>Every car<br>has a story.</h1>
-              <p class="hero-lede">
-                VERIVO preserves it as a living, continuous, intelligible whole—
-                so the past does not disappear and time remains visible.
-              </p>
-              <div class="hero-actions">
-                <a class="button button-primary" href="#purpose">Why VERIVO exists</a>
-                <a class="text-link" href="#metaphors">The three metaphors</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="hero-object" aria-hidden="true">
-            <div class="specimen-frame">
-              <div class="specimen-orbit specimen-orbit-outer"></div>
-              <div class="specimen-orbit specimen-orbit-inner"></div>
-              <div class="amber-core">
-                <span class="amber-trace amber-trace-one"></span>
-                <span class="amber-trace amber-trace-two"></span>
-                <span class="amber-trace amber-trace-three"></span>
-              </div>
-              <span class="specimen-mark specimen-mark-top">01</span>
-              <span class="specimen-mark specimen-mark-bottom">∞</span>
-            </div>
-            <p class="object-caption">Past / Present / Continuity</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="purpose section" id="purpose">
-        <div class="shell split-layout">
-          <div class="section-marker" aria-hidden="true">01</div>
-
-          <div data-language="uk">
-            <p class="eyebrow">Причина існування</p>
-            <h2>Не облік.<br>Історія.</h2>
-          </div>
-          <div data-language="en" hidden>
-            <p class="eyebrow">Reason for being</p>
-            <h2>Not tracking.<br>History.</h2>
-          </div>
-
-          <div class="section-copy">
-            <div data-language="uk">
-              <p class="lead-copy">
-                Історія автомобіля розпадається на документи, людську пам’ять і
-                сліди без контексту. VERIVO існує, щоб зберегти зв’язок між ними.
-              </p>
-              <p>
-                Запис — це одиниця інформації. Історія — це зв’язок між одиницями.
-                Точний запис ще не пояснює шлях автомобіля; послідовна історія
-                показує, що було раніше, звідки це відомо і де закінчується відоме.
-              </p>
-            </div>
-            <div data-language="en" hidden>
-              <p class="lead-copy">
-                A car’s history comes apart across documents, human memory, and
-                traces without context. VERIVO exists to preserve the connection
-                between them.
-              </p>
-              <p>
-                A record is one unit of information. A history is the relationship
-                between units. An accurate record does not yet explain a car’s path;
-                a continuous history shows what came before, how it is known, and
-                where knowledge ends.
-              </p>
-            </div>
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-dot"></span><span data-t="eyebrow">Життєпис автомобіля</span></div>
+          <h1 data-t="heroTitle">Кожен автомобіль має свою історію.</h1>
+          <p class="hero-copy" data-t="heroCopy">Verivo зберігає сервіс, подорожі, документи й моменти, з яких складається життя авто.</p>
+          <div class="hero-actions">
+            <a class="primary" href="#early" data-t="heroCta">Приєднатися до раннього доступу</a>
+            <a class="text-link" href="#story" data-t="learn">Дізнатися більше ↓</a>
           </div>
         </div>
 
-        <div class="shell boundary-grid" aria-label="Product boundaries">
-          <article class="boundary-card">
-            <span class="boundary-index">01</span>
-            <p data-language="uk">Не трекер обслуговування</p>
-            <p data-language="en" hidden>Not a maintenance tracker</p>
-          </article>
-          <article class="boundary-card">
-            <span class="boundary-index">02</span>
-            <p data-language="uk">Не трекер пального</p>
-            <p data-language="en" hidden>Not a fuel tracker</p>
-          </article>
-          <article class="boundary-card">
-            <span class="boundary-index">03</span>
-            <p data-language="uk">Не трекер витрат</p>
-            <p data-language="en" hidden>Not an expense tracker</p>
-          </article>
-          <article class="boundary-card">
-            <span class="boundary-index">04</span>
-            <p data-language="uk">Не застосунок-нагадувач</p>
-            <p data-language="en" hidden>Not a reminder app</p>
+        <div class="memory-stage" aria-label="Road trip memory">
+          <div class="halo"></div>
+          <div class="polaroid-back back-1"></div>
+          <div class="polaroid-back back-2"></div>
+          <article class="polaroid">
+            <div class="photo">
+              <svg viewBox="0 0 800 840" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Car on a mountain road at sunset">
+                <defs>
+                  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#9ab1c2"/>
+                    <stop offset=".42" stop-color="#e5b07b"/>
+                    <stop offset="1" stop-color="#6f6759"/>
+                  </linearGradient>
+                  <linearGradient id="mount" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#64705a"/>
+                    <stop offset="1" stop-color="#202821"/>
+                  </linearGradient>
+                  <linearGradient id="road" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#5a5149"/>
+                    <stop offset="1" stop-color="#1b1c1b"/>
+                  </linearGradient>
+                  <linearGradient id="car" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0" stop-color="#111"/>
+                    <stop offset=".55" stop-color="#353535"/>
+                    <stop offset="1" stop-color="#0b0b0b"/>
+                  </linearGradient>
+                  <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+                </defs>
+                <rect width="800" height="840" fill="url(#sky)"/>
+                <circle cx="585" cy="190" r="74" fill="#ffd69c" opacity=".84" filter="url(#blur)"/>
+                <path d="M0 390 L155 260 L285 350 L435 190 L620 350 L800 270 L800 560 L0 560Z" fill="#3a4940" opacity=".78"/>
+                <path d="M0 462 L180 332 L315 432 L478 256 L670 410 L800 348 L800 618 L0 618Z" fill="url(#mount)"/>
+                <path d="M0 612 C230 555 430 550 800 468 L800 840 L0 840Z" fill="#6b654e"/>
+                <path d="M78 840 C160 724 245 661 362 626 C495 585 630 578 800 540 L800 840Z" fill="url(#road)"/>
+                <path d="M351 752 C450 701 542 678 667 668" fill="none" stroke="#d4c7a7" stroke-width="7" stroke-dasharray="34 30" opacity=".72"/>
+                <g transform="translate(373 579)">
+                  <ellipse cx="131" cy="126" rx="128" ry="22" fill="#000" opacity=".28"/>
+                  <path d="M31 91 L65 45 C78 26 103 17 131 17 H198 C225 17 245 28 260 50 L286 89 L305 97 L311 125 H10 L17 101 Z" fill="url(#car)"/>
+                  <path d="M82 52 C94 36 111 30 134 30 H192 C211 30 225 36 239 55 L250 75 H65Z" fill="#7f9baa" opacity=".82"/>
+                  <path d="M137 31 L139 75" stroke="#252525" stroke-width="5"/>
+                  <circle cx="76" cy="122" r="27" fill="#101010"/>
+                  <circle cx="76" cy="122" r="13" fill="#6e6e6e"/>
+                  <circle cx="248" cy="122" r="27" fill="#101010"/>
+                  <circle cx="248" cy="122" r="13" fill="#6e6e6e"/>
+                  <rect x="22" y="91" width="25" height="10" rx="4" fill="#ff8a22"/>
+                  <rect x="275" y="91" width="25" height="10" rx="4" fill="#ffdbb4"/>
+                </g>
+                <rect width="800" height="840" fill="#d47a30" opacity=".07"/>
+              </svg>
+              <div class="grain"></div>
+            </div>
+            <div class="polaroid-meta">
+              <div>
+                <div class="polaroid-title" data-t="photoTitle">Перша подорож у Карпати</div>
+                <div class="polaroid-detail" data-t="photoMeta">12 серпня 2024 · 1 284 км · Україна</div>
+              </div>
+              <div class="stamp"><img src="assets/logo-mark.png" alt=""></div>
+            </div>
           </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="metaphors section section-dark" id="metaphors">
-        <div class="shell section-heading-row">
+    <section id="story" class="content">
+      <div class="wrap reveal">
+        <div class="kicker" data-t="storyKicker">Не трекер. Не журнал. Історія.</div>
+        <h2 data-t="storyTitle">Те, що сьогодні здається дрібницею, завтра стає пам’яттю.</h2>
+        <p class="lead" data-t="storyLead">Перше ТО. Перша далека подорож. Нові шини. Фото біля моря. Через роки саме ці речі складаються у повну біографію автомобіля.</p>
+
+        <div class="memory-strip">
+          <div class="memory-card"><span class="date">2024 · 12 AUG</span><strong data-t="m1">Перша велика подорож</strong></div>
+          <div class="memory-card"><span class="date">2025 · 03 MAR</span><strong data-t="m2">Планове ТО · 30 000 км</strong></div>
+          <div class="memory-card"><span class="date">2027 · 21 OCT</span><strong data-t="m3">Новий комплект шин</strong></div>
+          <div class="memory-card"><span class="date">2031 · 04 MAY</span><strong data-t="m4">Історію передано новому власнику</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content amber">
+      <div class="wrap reveal">
+        <div class="kicker" data-t="amberKicker">Збережено в часі</div>
+        <h2 data-t="amberTitle">Як бурштин зберігає минуле, Verivo зберігає життя автомобіля.</h2>
+        <p class="lead" data-t="amberLead">Факти, документи, витрати, маршрути й спогади залишаються разом — не розсипаються між чеками, нотатками, галереєю та різними сервісами.</p>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="wrap reveal">
+        <div class="kicker" data-t="statsKicker">Життя в цифрах</div>
+        <h2 data-t="statsTitle">Не просто статистика. Біографія.</h2>
+        <p class="lead" data-t="statsLead">Скільки кілометрів пройдено. Скільки пального випито. Скільки разів автомобіль був у «лікаря». І скільки місць ви побачили разом.</p>
+        <div class="stats">
+          <div class="stat"><div class="num">126 482</div><div class="label" data-t="s1">км пройдено</div></div>
+          <div class="stat"><div class="num">11 438</div><div class="label" data-t="s2">л пального</div></div>
+          <div class="stat"><div class="num">27</div><div class="label" data-t="s3">сервісних подій</div></div>
+          <div class="stat"><div class="num">14</div><div class="label" data-t="s4">країн</div></div>
+          <div class="stat"><div class="num">126</div><div class="label" data-t="s5">фотографій</div></div>
+          <div class="stat"><div class="num">8</div><div class="label" data-t="s6">років історії</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content manifesto">
+      <div class="wrap reveal">
+        <div class="kicker">VERIVO</div>
+        <h2 data-t="manifesto">Кожен автомобіль має життя. Ми допомагаємо його зберегти.</h2>
+        <p class="lead" data-t="manifestoLead">Від першого дня з вами — до дня, коли історія продовжиться з наступним власником.</p>
+      </div>
+    </section>
+
+    <section id="early" class="signup">
+      <div class="wrap reveal">
+        <div class="signup-box">
           <div>
-            <p class="eyebrow">
-              <span data-language="uk">Одна ідея, три погляди</span>
-              <span data-language="en" hidden>One idea, three views</span>
-            </p>
-            <h2 data-language="uk">Як VERIVO бачить історію</h2>
-            <h2 data-language="en" hidden>How VERIVO sees history</h2>
+            <div class="kicker" data-t="earlyKicker">Ранній доступ</div>
+            <h2 data-t="earlyTitle">Почніть історію свого авто разом із Verivo.</h2>
+            <p class="lead" data-t="earlyLead">Залиште email — ми запросимо вас, коли відкриємо Verivo для перших користувачів.</p>
           </div>
-          <p class="section-intro" data-language="uk">
-            Минуле автомобіля має залишатися видимим, зрозумілим і пов’язаним
-            із самим автомобілем.
-          </p>
-          <p class="section-intro" data-language="en" hidden>
-            The past of a car should remain visible, intelligible, and attached
-            to the car itself.
-          </p>
-        </div>
-
-        <div class="shell metaphor-grid">
-          <article class="metaphor-card metaphor-card-featured">
-            <div class="metaphor-number">I</div>
-            <div class="metaphor-symbol metaphor-symbol-amber" aria-hidden="true"></div>
-            <div data-language="uk">
-              <p class="card-kicker">Головна метафора</p>
-              <h3>Бурштин</h3>
-              <p>
-                Зберігає крихкий фрагмент разом із часом. Минуле не стає новим —
-                воно залишається видимим, захищеним і присутнім.
-              </p>
-            </div>
-            <div data-language="en" hidden>
-              <p class="card-kicker">Core metaphor</p>
-              <h3>Amber</h3>
-              <p>
-                It preserves a fragile fragment with time still visible in it.
-                The past does not become new; it remains protected and present.
-              </p>
-            </div>
-          </article>
-
-          <article class="metaphor-card">
-            <div class="metaphor-number">II</div>
-            <div class="metaphor-symbol metaphor-symbol-album" aria-hidden="true">
-              <span></span><span></span><span></span>
-            </div>
-            <div data-language="uk">
-              <p class="card-kicker">Друга метафора</p>
-              <h3>Сімейний фотоальбом</h3>
-              <p>
-                Окремі моменти стають пам’яттю завдяки порядку, належності й
-                контексту. Таку пам’ять можна передати далі.
-              </p>
-            </div>
-            <div data-language="en" hidden>
-              <p class="card-kicker">Second metaphor</p>
-              <h3>Family Photo Album</h3>
-              <p>
-                Separate moments become memory through order, belonging, and
-                context. That memory can be handed on.
-              </p>
-            </div>
-          </article>
-
-          <article class="metaphor-card">
-            <div class="metaphor-number">III</div>
-            <div class="metaphor-symbol metaphor-symbol-history" aria-hidden="true">
-              <span></span><span></span><span></span>
-            </div>
-            <div data-language="uk">
-              <p class="card-kicker">Третя метафора</p>
-              <h3>Медична історія</h3>
-              <p>
-                Безперервність і доказовість допомагають зрозуміти теперішній
-                стан через те, що було раніше.
-              </p>
-            </div>
-            <div data-language="en" hidden>
-              <p class="card-kicker">Third metaphor</p>
-              <h3>Medical History</h3>
-              <p>
-                Continuity and evidence help the present condition be understood
-                through what came before.
-              </p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="principles section" id="principles">
-        <div class="shell principles-layout">
-          <div class="principles-heading">
-            <p class="eyebrow">
-              <span data-language="uk">Що має залишатися незмінним</span>
-              <span data-language="en" hidden>What must remain true</span>
-            </p>
-            <h2 data-language="uk">Історія створює довіру.</h2>
-            <h2 data-language="en" hidden>History creates trust.</h2>
-          </div>
-
-          <ol class="principle-list" data-language="uk">
-            <li>
-              <span>01</span>
-              <p>Новий контекст доповнює минуле, але не переписує його.</p>
-            </li>
-            <li>
-              <span>02</span>
-              <p>Чесно позначена прогалина надійніша за припущення.</p>
-            </li>
-            <li>
-              <span>03</span>
-              <p>Кількість даних не замінює тяглість і контекст.</p>
-            </li>
-            <li>
-              <span>04</span>
-              <p>Прозорість і бездоганність — різні речі.</p>
-            </li>
-          </ol>
-
-          <ol class="principle-list" data-language="en" hidden>
-            <li>
-              <span>01</span>
-              <p>New context can deepen the past, but must not rewrite it.</p>
-            </li>
-            <li>
-              <span>02</span>
-              <p>An honestly marked gap is more trustworthy than an assumption.</p>
-            </li>
-            <li>
-              <span>03</span>
-              <p>The volume of data cannot replace continuity and context.</p>
-            </li>
-            <li>
-              <span>04</span>
-              <p>Transparency and perfection are different qualities.</p>
-            </li>
-          </ol>
-        </div>
-      </section>
-
-      <section class="closing-statement">
-        <div class="shell">
-          <div data-language="uk">
-            <p>Записи важливі. Але лише історія надає їм місце.</p>
-            <h2>VERIVO зберігає не образ.<br>VERIVO зберігає шлях.</h2>
-          </div>
-          <div data-language="en" hidden>
-            <p>Records matter. History gives them a place.</p>
-            <h2>VERIVO does not preserve an image.<br>VERIVO preserves the path.</h2>
+          <div>
+            <form id="form">
+              <input id="emailInput" type="email" autocomplete="email" required placeholder="you@example.com">
+              <button class="primary" type="submit" data-t="earlyBtn">Хочу ранній доступ</button>
+            </form>
+            <div id="formNote" class="form-note" data-t="note" aria-live="polite">Без спаму. Лише запуск і важливі оновлення.</div>
           </div>
         </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="shell footer-inner">
-        <a class="wordmark" href="#top">VERIVO</a>
-        <p>The Living History of Your Car</p>
-        <p>© 2026 VERIVO</p>
       </div>
-    </footer>
-  </body>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-in">
+      <span>© 2026 Verivo</span>
+      <span data-t="footer">Every car has a story worth preserving.</span>
+    </div>
+  </footer>
+
+  <script src="scripts/home.js" defer></script>
+</body>
 </html>

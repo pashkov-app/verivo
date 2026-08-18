@@ -1,13 +1,13 @@
 ---
-title: "Why Verivo Exists"
-purpose: "Define the enduring reason for Verivo and the meaning of The Living History of Your Car."
-reading_time: "15 minutes"
-status: "Approved"
+title: "Чому існує Verivo / Why Verivo Exists"
+purpose: "Визначити незмінну причину існування Verivo та значення The Living History of Your Car. / Define the enduring reason for Verivo and the meaning of The Living History of Your Car."
+reading_time: "15 хвилин / 15 minutes"
+status: "Затверджено / Approved"
 ---
 
-# Українська
+## UA
 
-## Навіщо існує Verivo
+### Навіщо існує Verivo
 
 Кожен автомобіль має історію.
 
@@ -21,7 +21,7 @@ Verivo існує, щоб зберегти цю історію.
 
 Це не рекламна фраза і не опис окремої функції. Це причина існування продукту. Вона визначає, що належить Verivo, а що — ні; що варто зберігати; як окремі записи мають ставати історією; і чому ця історія може створювати довіру.
 
-## Чим Verivo не є
+### Чим Verivo не є
 
 Verivo — не трекер технічного обслуговування.
 
@@ -43,7 +43,7 @@ Verivo — не застосунок-нагадувач.
 
 Verivo не існує заради обліку. Облік фіксує одиниці. Verivo зберігає зв’язок між ними.
 
-## Жива історія автомобіля
+### Жива історія автомобіля
 
 Історія — це не просто все, що колись сталося. Це події, збережені в часі та пов’язані одна з одною настільки, щоб їх можна було зрозуміти.
 
@@ -55,7 +55,7 @@ Verivo не існує заради обліку. Облік фіксує оди
 
 Тому жива історія — це не нескінченне накопичення. Це збереження безперервності. Її цінність виникає не з кількості полів або записів, а з можливості побачити автомобіль крізь час.
 
-## Бурштин
+### Бурштин
 
 Головна метафора Verivo — бурштин.
 
@@ -67,7 +67,7 @@ Verivo не існує заради обліку. Облік фіксує оди
 
 Бурштин також пояснює різницю між зберіганням і складуванням. Сховище може містити тисячі предметів, не встановлюючи між ними жодного зв’язку. Бурштин утримує фрагмент разом із його положенням у часі. Для Verivo цього недостатньо — лише мати запис. Запис має залишатися частиною зрозумілого цілого.
 
-## Сімейний фотоальбом
+### Сімейний фотоальбом
 
 Друга метафора Verivo — сімейний фотоальбом.
 
@@ -81,7 +81,7 @@ Verivo не існує заради обліку. Облік фіксує оди
 
 Verivo зберігає не абстрактну історію автомобілів узагалі. Воно зберігає історію **цього** автомобіля. Як і в доброму альбомі, конкретність надає пам’яті ваги.
 
-## Медична історія
+### Медична історія
 
 Третя метафора Verivo — медична історія.
 
@@ -95,7 +95,7 @@ Verivo зберігає не абстрактну історію автомоб�
 
 Бурштин говорить про збереження. Сімейний фотоальбом — про пам’ять і передавання. Медична історія — про безперервність і доказовість. Разом вони описують одну ідею з трьох сторін: минуле автомобіля має залишатися видимим, зрозумілим і пов’язаним із самим автомобілем.
 
-## Чому самих записів недостатньо
+### Чому самих записів недостатньо
 
 Запис — це одиниця інформації. Історія — це зв’язок між одиницями.
 
@@ -107,7 +107,7 @@ Verivo зберігає не абстрактну історію автомоб�
 
 У цьому різниця між реєстром і пам’яттю. Реєстр може перелічити. Пам’ять поєднує. Verivo потребує точності запису, але його призначення починається там, де запис знаходить своє місце в історії.
 
-## Історія створює довіру
+### Історія створює довіру
 
 Довіра не виникає від самого факту збереження даних. Вона виникає з видимої тяглості.
 
@@ -119,7 +119,7 @@ Verivo зберігає не абстрактну історію автомоб�
 
 Саме тому Verivo зберігає історію, а не створює образ. Образ можна відредагувати відповідно до сьогоднішньої мети. Історія має пережити зміну мети, власника і часу.
 
-## Що має залишатися незмінним
+### Що має залишатися незмінним
 
 Verivo може розвиватися, але причина його існування не повинна розмиватися.
 
@@ -135,7 +135,7 @@ Verivo може розвиватися, але причина його існу�
 
 Це не три різні напрями продукту. Це три способи побачити одне призначення.
 
-## Обіцянка Verivo
+### Обіцянка Verivo
 
 Кожен автомобіль має історію, незалежно від того, наскільки повно вона була записана.
 
@@ -153,9 +153,23 @@ Verivo існує, щоб це минуле не зникало безслідн
 
 **Verivo — The Living History of Your Car.**
 
-# English
+### Примітки автора
 
-## The reason Verivo exists
+Цей розділ Canon розвиває лише затверджені основоположні ідеї, надані для `VC-001`. Він навмисно не визначає набір функцій, аудиторію, комерційне позиціонування, roadmap або модель реалізації.
+
+Український та англійський розділи написані як окремі редакційні версії одного Canon. Англійський розділ є самостійним англомовним викладом, а не дослівним перекладом. Обидва зберігають однакові категорійні межі, ієрархію метафор і висновок.
+
+Три метафори мають різні ролі та повинні зберігати свій порядок у майбутніх посиланнях: Бурштин — головна метафора; Сімейний фотоальбом — друга; Медична історія — третя.
+
+### Історія змін
+
+| Дата | Версія | Зміна |
+| --- | --- | --- |
+| 2026-08-18 | 1.0 | Початкова затверджена версія Canon. |
+
+## EN
+
+### The reason Verivo exists
 
 Every car has a story.
 
@@ -167,7 +181,7 @@ It does not preserve it as a pile of facts whose value ends when the latest entr
 
 This is what **The Living History of Your Car** means. It is not a campaign line attached to the product. It is the clearest statement of the product’s purpose. It establishes the boundary around Verivo and explains why preserving the relationship between records matters more than accumulating records alone.
 
-## A deliberate boundary
+### A deliberate boundary
 
 Verivo is not a maintenance tracker.
 
@@ -189,7 +203,7 @@ These distinctions do not make maintenance, fuel, expenses, or reminders unimpor
 
 A tracker counts discrete things. Verivo preserves the continuity between them.
 
-## What makes a history living
+### What makes a history living
 
 A history is more than everything that happened. It is what happened, held in time and connected well enough to be understood.
 
@@ -201,7 +215,7 @@ Nor should a living history pretend to be complete. An honest gap is more trustw
 
 The aim is therefore not accumulation without limit. More fields do not necessarily produce more history. More entries do not necessarily produce more understanding. A history becomes valuable when it allows one car to be seen through time.
 
-## Amber
+### Amber
 
 Amber is Verivo’s central metaphor.
 
@@ -211,7 +225,7 @@ This is the quality of preservation that matters to Verivo. A car’s history sh
 
 Amber also distinguishes preservation from storage. A warehouse can contain innumerable objects without telling us how any one of them belongs to a particular moment. Amber holds a fragment in a relationship with time. In the same way, the presence of a record is not enough for Verivo. The record must retain a place within an intelligible history.
 
-## The family photo album
+### The family photo album
 
 The family photo album is Verivo’s second metaphor.
 
@@ -225,7 +239,7 @@ Handing someone an album is different from handing them a box of unlabelled phot
 
 Verivo is not preserving the abstract history of cars as a category. It is preserving the story of **this** car. Specificity gives memory its weight.
 
-## The medical history
+### The medical history
 
 Medical history is Verivo’s third metaphor.
 
@@ -239,7 +253,7 @@ The analogy should remain exact. It does not turn the car into a patient, and it
 
 Amber speaks to preservation. The family photo album speaks to memory and inheritance. Medical history speaks to continuity and evidence. Together, they give three views of the same purpose: the past of a car should remain visible, intelligible, and attached to the car itself.
 
-## Records are not yet history
+### Records are not yet history
 
 A record is one unit of information. A history is the relationship between units.
 
@@ -251,7 +265,7 @@ History earns trust by remaining coherent under questions. How is this known? Wh
 
 The distinction is similar to the difference between an index and memory. An index can enumerate. Memory connects. Verivo depends on accurate records, but its purpose begins when each record finds its place in the history of the car.
 
-## How history creates trust
+### How history creates trust
 
 Trust does not arise from the mere presence of data. It grows from visible continuity.
 
@@ -263,7 +277,7 @@ Trust does not require the car to be perfect. Perfection and transparency are di
 
 Verivo therefore preserves a history rather than manufacturing an image. An image can be edited for the needs of the present. A history must remain meaningful when the present need, the owner, and the moment have changed.
 
-## What must remain true
+### What must remain true
 
 Verivo may develop, but its reason for existing must not dissolve into the mechanics of tracking.
 
@@ -279,7 +293,7 @@ The three metaphors provide a clear return to purpose:
 
 These are not three competing directions. They are three tests of one idea.
 
-## The Verivo promise
+### The Verivo promise
 
 Every car has a story, whether or not that story has been fully recorded.
 
@@ -297,7 +311,7 @@ A claim can ask for trust. A history can create it.
 
 **Verivo is The Living History of Your Car.**
 
-# Author Notes
+### Author Notes
 
 This Canon chapter develops only the approved founding ideas supplied for `VC-001`. It intentionally defines no feature set, audience, commercial position, roadmap, or implementation model.
 
@@ -305,7 +319,7 @@ The Ukrainian and English chapters are written as independent editorial editions
 
 The three metaphors have distinct roles and should retain their order in future references: Amber is the core metaphor; Family Photo Album is the second; Medical History is the third.
 
-# Revision History
+### Revision History
 
 | Date | Version | Change |
 | --- | --- | --- |

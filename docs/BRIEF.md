@@ -39,6 +39,7 @@ Verivo — **The Living History of Your Car**: продукт, що зберіг
 | Головна метафора | Бурштин: збереження крихкого фрагмента разом із видимим часом. |
 | Друга метафора | Сімейний фотоальбом: окремі моменти стають пам’яттю завдяки порядку, належності та контексту; цю пам’ять можна передати далі. |
 | Третя метафора | Медична історія: безперервність і доказовість допомагають зрозуміти теперішній стан через минуле. Метафора не визначає Verivo як діагностичну систему. |
+| Голос бренду | Сімейний архіваріус; маніфест затверджено у VC-002 (v1.0). |
 | Візуальна айдентика | **[TBD]** У наявних документах немає затверджених рішень щодо логотипа, кольорів, типографіки або візуальної системи. |
 
 ### 6. Що вже вирішено
@@ -56,8 +57,11 @@ Verivo — **The Living History of Your Car**: продукт, що зберіг
 - Важливі продуктові рішення мають бути зафіксовані у версійному документі, а не залишатися лише в зустрічах, чатах, коментарях до задач або pull request.
 - Canon керує продуктовими істинами; `docs/BRIEF.md` є операційним дайджестом, а в разі конфлікту Canon має перевагу (`DL-0001`).
 - Написання назви зафіксовано: `Verivo` у тексті; словесний знак і логотип — усіма великими літерами (`DL-0002`).
-- `VC-002` зарезервовано для "Brand Manifesto", а `VC-003` — для "Who pays and when"; ці документи ще не створено (`DL-0003`).
+- `VC-002` зарезервовано для "Brand Manifesto", а `VC-003` — для "Who pays and when" (`DL-0003`).
 - Polaroid затверджено як бренд-метафору настрою історії та спогадів у візуальній мові. Це не змінює канонічну ієрархію Бурштин → Сімейний фотоальбом → Медична історія (`DL-0004`).
+- Юніт економіки = автомобіль (VIN), згідно з DL-0006; головна продуктова метрика — continuity rate.
+- Умова живого джерела за DL-0007: статичні артефакти не монетизуються; монетизація в моменті угоди потребує шару верифікації.
+- Маніфест бренду (голос, відмови, напруги) затверджено у VC-002.
 
 ### 7. Відкриті питання
 
@@ -66,7 +70,8 @@ Verivo — **The Living History of Your Car**: продукт, що зберіг
 | Сегменти користувачів за поведінкою або задачею | **[TBD]** Не визначені в наявних документах. |
 | Функціональний обсяг продукту | **[TBD]** `VC-001` навмисно не визначає набір функцій. |
 | Візуальна айдентика | **[TBD]** Логотип, кольори, типографіка та візуальна система не визначені. |
-| Комерційне позиціонування | **[TBD]** `VC-001` навмисно його не визначає. |
+| Комерційне позиціонування | Гіпотези монетизації та план перевірок зафіксовано у VC-003 (Draft v0.2); первинну модель свідомо залишено відкритою до результатів тестів. |
+| Механізм continuity rate (як історія передається наступному власнику) | **[TBD]** Головна продуктова метрика. |
 | Roadmap | **[TBD]** Не визначений у наявних документах. |
 | Модель реалізації | **[TBD]** `VC-001` навмисно її не визначає. |
 | Критерії достовірності та механізм походження записів | **[TBD]** Принципи вимагають достовірності, походження й меж відомого, але спосіб їх забезпечення не визначений. |
@@ -75,6 +80,7 @@ Verivo — **The Living History of Your Car**: продукт, що зберіг
 
 | Версія | Дата | Що увійшло |
 | --- | --- | --- |
+| v3 | 2026-08-19 | Рішення про юніт (DL-0006), умова живого джерела (DL-0007), VC-002 затверджено, зафіксовано посилання на гіпотези VC-003. |
 | v2 | 2026-08-18 | Суперечності вирішено згідно з DL-0001..0004; застосовано правило регістру назви. |
 | v1 | 2026-08-18 | Зібрано наявний продуктовий опис, Canon-філософію, бренд-метафори, продуктові межі та правила документування з `README.md`, `docs/README.md`, `docs/canon/README.md`, `docs/canon/VC-000.md`, `docs/canon/VC-001-Why-Verivo-Exists.md` і `CONTRIBUTING.md`; відсутній матеріал позначено `[TBD]`; знайдені суперечності винесено у відкриті питання. |
 
@@ -117,6 +123,7 @@ Verivo is **The Living History of Your Car**: a product that preserves the livin
 | Core metaphor | Amber: preserving a fragile fragment with time still visible in it. |
 | Second metaphor | Family Photo Album: separate moments become memory through order, belonging, and context; that memory can be handed on. |
 | Third metaphor | Medical History: continuity and evidence help the present condition be understood through the past. The metaphor does not define Verivo as a diagnostic system. |
+| Brand voice | Family archivist; the manifesto is approved in VC-002 (v1.0). |
 | Visual identity | **[TBD]** The existing documents contain no approved decisions for a logo, colors, typography, or visual system. |
 
 ### 6. What has already been decided
@@ -134,8 +141,11 @@ Verivo is **The Living History of Your Car**: a product that preserves the livin
 - Important product decisions must become version-controlled documents rather than remain only in meetings, chats, issue comments, or pull requests.
 - Canon governs product truths; `docs/BRIEF.md` is an operational digest, and Canon wins in any conflict (`DL-0001`).
 - Name casing is resolved: `Verivo` in prose; the wordmark and logo use all capital letters (`DL-0002`).
-- `VC-002` is reserved for "Brand Manifesto", and `VC-003` is reserved for "Who pays and when"; neither document has been created (`DL-0003`).
+- `VC-002` is reserved for "Brand Manifesto", and `VC-003` is reserved for "Who pays and when" (`DL-0003`).
 - Polaroid is ratified as a brand metaphor for the mood of history and memories in the visual language. It does not change the canonical hierarchy Amber → Family Photo Album → Medical History (`DL-0004`).
+- Unit of economics = the car (VIN), per DL-0006; primary product metric is the continuity rate.
+- The live-source condition per DL-0007: static artifacts are not monetizable; deal-moment monetization requires a verification layer.
+- The brand manifesto (voice, refusals, tensions) is approved in VC-002.
 
 ### 7. Open Questions
 
@@ -144,7 +154,8 @@ Verivo is **The Living History of Your Car**: a product that preserves the livin
 | User segments by behavior or job | **[TBD]** Not defined in the existing documents. |
 | Product feature scope | **[TBD]** `VC-001` intentionally defines no feature set. |
 | Visual identity | **[TBD]** Logo, colors, typography, and visual system are not defined. |
-| Commercial positioning | **[TBD]** `VC-001` intentionally does not define it. |
+| Commercial positioning | Monetization hypotheses and the test plan are recorded in VC-003 (Draft v0.2); the primary model is deliberately open until the tests report. |
+| Continuity-rate mechanism (how a history is handed to the next owner) | **[TBD]** Primary product metric. |
 | Roadmap | **[TBD]** Not defined in the existing documents. |
 | Implementation model | **[TBD]** `VC-001` intentionally does not define it. |
 | Integrity criteria and record-provenance mechanism | **[TBD]** The principles require integrity, provenance, and visible limits of knowledge, but the means of providing them are not defined. |
@@ -153,5 +164,6 @@ Verivo is **The Living History of Your Car**: a product that preserves the livin
 
 | Version | Date | Included |
 | --- | --- | --- |
+| v3 | 2026-08-19 | Unit decision (DL-0006), live-source condition (DL-0007), VC-002 approved, VC-003 hypotheses referenced. |
 | v2 | 2026-08-18 | Contradictions resolved per DL-0001..0004; casing applied. |
 | v1 | 2026-08-18 | Consolidated the existing product description, Canon philosophy, brand metaphors, product boundaries, and documentation rules from `README.md`, `docs/README.md`, `docs/canon/README.md`, `docs/canon/VC-000.md`, `docs/canon/VC-001-Why-Verivo-Exists.md`, and `CONTRIBUTING.md`; marked missing material `[TBD]`; recorded identified contradictions as open questions. |

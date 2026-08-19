@@ -3,7 +3,7 @@ title: "Brand Manifesto"
 title_ua: "Маніфест бренду"
 purpose: "Fix the voice of Verivo and the manifesto that carries it: what the brand says, how it speaks, and what it refuses to do."
 reading_time: "7 minutes"
-status: "Draft"
+status: "Approved"
 ---
 
 ## UA
@@ -101,6 +101,7 @@ Polaroid (DL-0004) — метафора візуальної мови; у вер
 | Дата | Версія | Зміна |
 | --- | --- | --- |
 | 2026-08-18 | 0.1 | Перший драфт на затвердження засновника. |
+| 2026-08-19 | 1.0 | Затверджено засновником без змін змісту. |
 
 ## EN
 
@@ -197,3 +198,4 @@ Polaroid (DL-0004) is a metaphor of the visual language; it is absent from the v
 | Date | Version | Change |
 | --- | --- | --- |
 | 2026-08-18 | 0.1 | First draft for founder approval. |
+| 2026-08-19 | 1.0 | Approved by the founder without content changes. |
